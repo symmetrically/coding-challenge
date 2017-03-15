@@ -1,24 +1,30 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple application created for coding test with rubberstamp.io .
 
-Things you may want to cover:
+Things you will need to run the application:
 
-* Ruby version
+* Ruby Version : 2.2.3
 
-* System dependencies
+* Rails Version : 5.0.1
 
-* Configuration
+* PostgreSQL
 
-* Database creation
+## Steps to run the application:
 
-* Database initialization
+Run bundler to install the gems and dependencies
+```bash
+bundle install
+```
 
-* How to run the test suite
+Create Database
+```bash
+rails db:create
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+Fire up the rails server
+```bash
+rails server  
+```
 
-* Deployment instructions
-
-* ...
+In browser go to : http://localhost:3000
